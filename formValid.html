@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Validate Form</title>
+        <link rel="stylesheet" href="css/formValid.css">
+        <script src="jQuery/jquery-1.12.3.min.js" charset="utf-8"></script>
+    </head>
+    <body>
+        <div id="header">
+            <ul id="list">
+                <li><a href="#">account</a></li>
+                <li><a href="#">check in</a></li>
+            </ul>
+        </div>
+        <div id="formValid">
+            <p id="checkIn">Check in</p>
+            <input type="text" class="authorization" id="username" value="" placeholder="Username"><br>
+            <div class="error" id="errorUser"></div>
+            <input type="password" class="authorization" id="password" value="" placeholder="Password"><br>
+            <div class="error" id="errorPass"></div>
+            <input type="password" class="authorization" id="repassword" value="" placeholder="Re-password"><br>
+            <div class="error" id="errorRePass"></div>
+            <input type="button" id="registration" value="Registration">
+        </div>
+        <div id="accountAutoriz">
+            <p id="loginToAccount">Login to account</p>
+            <input class="autoriz"  type="text" id="loginAccount" value="" placeholder="login"><br>
+            <div class="error" id="errorLogin"></div>
+            <input class="autoriz"  type="password" id="passwordAccount" value="" placeholder="password"><br>
+            <div class="error" id="errorPassword"></div>
+            <input id="checkbox" type="checkbox" name="check" value="">Remember password<br>
+            <input type="button" id="entrance" value="Entrance">
+        </div>
+        <script src="script/formValid.js" charset="utf-8"></script>
+    </body>
+</html>

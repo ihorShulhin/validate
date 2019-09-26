@@ -1,0 +1,98 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+#header {
+    height: 50px;
+    border-bottom: 3px solid white;
+}
+
+#list {
+    float: right;
+    margin-right: 50px;
+}
+
+#list li {
+    list-style: none;
+    display: inline;
+    padding-right: 50px;
+}
+#list li a {
+    text-decoration: none;
+    color: white;
+}
+
+#list li a:hover {
+    border-bottom: 2px solid yellow;
+}
+
+#formValid {
+    width: 300px;
+    border: 2px solid white;
+    background-color: blue;
+    position: absolute;
+    top: 75px;
+    right: 15px;
+    display: none;
+}
+
+.authorization {
+    margin: 15px;
+    padding: 10px;
+}
+
+.error {
+    margin-left: 15px;
+}
+
+#registration{
+    padding: 7px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+#registration:hover {
+    background-color: lime;
+}
+
+#checkIn {
+    text-align: center;
+    font-size: 24px;
+    font-style: bold;
+}
+
+#loginToAccount {
+    text-align: center;
+    font-size: 24px;
+    font-size: bold;
+}
+
+#accountAutoriz {
+    width: 300px;
+    border: 2px solid white;
+    background-color: green;
+    position: absolute;
+    top: 75px;
+    right: 15px;
+    display: none;
+}
+
+.autoriz {
+    margin: 15px;
+    padding: 10px;
+}
+
+#checkbox {
+    margin-left: 15px;
+}
+
+#entrance {
+    margin: 15px;
+    padding: 7px;
+}
+
+#entrance:hover {
+    background-color: orange;
+    cursor: pointer;
+}
